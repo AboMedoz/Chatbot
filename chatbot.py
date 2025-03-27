@@ -9,6 +9,7 @@ from tensorflow.keras.layers import Activation, Dense, Dropout
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import SGD
 
+# https://github.com/katanaml/katana-assistant/blob/master/mlbackend/intents.json
 with open('intents.json', 'r') as file:
     intents = json.load(file)
 
